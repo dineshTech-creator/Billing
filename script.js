@@ -17,12 +17,6 @@ let currentEditItemId = null;
 
 function initStorage() {
     const sampleItems = [
-        { id: '1', name: 'Idly', price: 40, imageUrl: 'https://via.placeholder.com/400x300/4a90e2/ffffff?text=Idly' },
-        { id: '2', name: 'Vada', price: 35, imageUrl: 'https://images.pexels.com/photos/11143720/pexels-photo-11143720.jpeg' },
-        { id: '3', name: 'Dosa', price: 60, imageUrl: 'https://via.placeholder.com/400x300/f39c12/ffffff?text=Dosa' },
-        { id: '4', name: 'Poori', price: 50, imageUrl: 'https://images.pexels.com/photos/8477234/pexels-photo-8477234.jpeg' },
-        { id: '5', name: 'Pongal', price: 55, imageUrl: 'https://images.pexels.com/photos/8477227/pexels-photo-8477227.jpeg' },
-        { id: '6', name: 'Puttu', price: 45, imageUrl: 'https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg' }
     ];
 
     const existingItems = localStorage.getItem(STORAGE_KEYS.MENU_ITEMS);
